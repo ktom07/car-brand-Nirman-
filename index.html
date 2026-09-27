@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DS Pvt Ltd | You Deserve Luxury (Pure HTML & CSS)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. STICKY NAVBAR
+       ========================================================================= -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand">
+        <div class="brand-emblem">DS</div>
+        <div>
+          <span class="brand-name">DS PVT LTD</span>
+          <span class="brand-sub">Luxury Motoring</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#explore" class="nav-link">Explore Fleet</a></li>
+        <li><a href="#offers" class="nav-link">Offers & Privileges</a></li>
+        <li><a href="#customize" class="nav-link">Custom Atelier</a></li>
+        <li><a href="#exchange" class="nav-link">Exchange Car</a></li>
+      </ul>
+
+      <div>
+        <a href="#testdrive" class="btn btn-primary btn-sm">Book Test Drive</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       2. HERO SECTION & SHOWCASE (PURE CSS SWITCHER)
+       ========================================================================= -->
+  <section class="site-section hero" id="home">
+    <div class="container hero-box">
+      <span class="badge badge-cyan" style="margin-bottom: 16px;">✨ Automotive Distinction</span>
+      <h1 class="hero-title">
+        You Deserve <span class="text-cyan">Luxury.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Luxury is not an exclusive privilege — it is your earned destination. At <strong>DS Pvt Ltd</strong>, we engineer world-class performance, precision handling, and aerodynamic excellence within your reach. Command the road you walk.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#explore" class="btn btn-primary btn-lg">🚘 Explore Fleet</a>
+        <a href="#offers" class="btn btn-gold btn-lg">💰 Exclusive Privileges</a>
+        <a href="#exchange" class="btn btn-secondary btn-lg">🔄 Exchange Your Car</a>
+      </div>
+
+      <!-- Pure CSS Hero Showcase Radio Controller -->
+      <input type="radio" name="hero-model" id="hero-ds911" checked class="css-radio-hack" />
+      <input type="radio" name="hero-model" id="hero-ds1974" class="css-radio-hack" />
+      <input type="radio" name="hero-model" id="hero-ds3006" class="css-radio-hack" />
+
+      <div class="hero-showcase-container">
+        <!-- Slide 1: DS 911 -->
+        <div class="hero-slide" id="slide-ds911">
+          <img src="assets/images/ds-911.jpg" alt="DS 911" />
+          <div class="hero-slide-overlay">
+            <div>
+              <h3 style="font-size: 1.8rem;">DS 911</h3>
+              <p class="text-cyan" style="font-weight: 600;">Performance Sedan • A New Breed of Performance</p>
+            </div>
+            <div>
+              <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Ex-Showroom</span>
+              <div style="font-family: var(--font-heading); font-size: 1.6rem; color: var(--accent-gold); font-weight: 800;">₹80 Lakhs</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: DS 1974 -->
+        <div class="hero-slide" id="slide-ds1974">
+          <img src="assets/images/ds-1974.jpg" alt="DS 1974" />
+          <div class="hero-slide-overlay">
+            <div>
+              <h3 style="font-size: 1.8rem;">DS 1974</h3>
+              <p class="text-cyan" style="font-weight: 600;">Apex Luxury All-Terrain SUV • The Lion of Uncharted Terrain</p>
+            </div>
+            <div>
+              <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Ex-Showroom</span>
+              <div style="font-family: var(--font-heading); font-size: 1.6rem; color: var(--accent-gold); font-weight: 800;">₹1.2 Cr</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: DS 3006 -->
+        <div class="hero-slide" id="slide-ds3006">
+          <img src="assets/images/ds-3006.jpg" alt="DS 3006" />
+          <div class="hero-slide-overlay">
+            <div>
+              <h3 style="font-size: 1.8rem;">DS 3006</h3>
+              <p class="text-cyan" style="font-weight: 600;">Tri-Motor Hypercraft EV/Hybrid • Power Beyond Limits</p>
+            </div>
+            <div>
+              <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Ex-Showroom</span>
+              <div style="font-family: var(--font-heading); font-size: 1.6rem; color: var(--accent-gold); font-weight: 800;">₹3 Cr</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pure CSS Tab Labels -->
+        <div class="hero-tab-labels">
+          <label for="hero-ds911" class="hero-tab-label label-ds911">DS 911 (Sedan • ₹80 Lakhs)</label>
+          <label for="hero-ds1974" class="hero-tab-label label-ds1974">DS 1974 (SUV • ₹1.2 Cr)</label>
+          <label for="hero-ds3006" class="hero-tab-label label-ds3006">DS 3006 (Hyper EV • ₹3 Cr)</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Navigation Portal Cards  -->
+    <div class="container portals-grid">
+      <a href="#explore" class="portal-card">
+        <div>
+          <div class="portal-icon">🚘</div>
+          <h3>1. Explore Flagship Fleet</h3>
+          <p>Browse our models: Sedan (DS 911), SUV (DS 1974), and Hyper EV (DS 3006). Interactive 360° Studio, interior gallery, and live color switchers.</p>
+        </div>
+        <div class="portal-card-arrow">View All Models →</div>
+      </a>
+
+      <a href="#offers" class="portal-card">
+        <div>
+          <div class="portal-icon">💰</div>
+          <h3>2. Exclusive Privileges & Offers</h3>
+          <p>Discover festive complimentary ceramic packages, zero-downpayment corporate leases, and our dedicated Senior Citizen ₹1,50,000 concession.</p>
+        </div>
+        <div class="portal-card-arrow" style="color: var(--accent-gold);">View Privileges →</div>
+      </a>
+
+      <a href="#exchange" class="portal-card">
+        <div>
+          <div class="portal-icon">🔄</div>
+          <h3>3. Exchange Your Car (Trade-In)</h3>
+          <p>Step-by-step 9-step trade-in wizard. Instant algorithmic valuation, free doorstep inspection, and an extra ₹1,00,000 upgrade bonus.</p>
+        </div>
+        <div class="portal-card-arrow" style="color: var(--accent-cyan);">Start Trade-In Valuation →</div>
+      </a>
+    </div>
+
+    <!-- Creed Banner -->
+    <div class="container creed-banner">
+      <div>
+        <span class="badge badge-gold" style="margin-bottom: 8px;">Our Core Promise</span>
+        <h3>Because Everyone Deserves Excellence</h3>
+        <p>
+          At DS Pvt Ltd, we believe no one should compromise on engineering integrity, presidential safety, or bespoke comfort. We make luxury ownership transparent, inspiring, and accessible.
+        </p>
+      </div>
+      <div class="creed-list">
+        <div class="creed-item">💎 100% Guaranteed Luxury</div>
+        <div class="creed-item">🏡 Doorstep Test Drives</div>
+        <div class="creed-item">🔄 Instant Trade-In Value</div>
+        <div class="creed-item">🛡️ 5-Star Euro Safety</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. SECTION: EXPLORE CARS (PURE CSS FILTERING & DETAILS STUDIO)
+       ========================================================================= -->
+  <section class="site-section" id="explore">
+    <div class="container">
+      <div class="section-title">
+        <span class="badge badge-cyan">Fleet Collection</span>
+        <h2>Explore Flagship Models</h2>
+        <p>Precision-engineered machines tuned for racetracks, desert expeditions, and high-velocity grand touring.</p>
+      </div>
+
+      <!-- Pure CSS Filtering Radios -->
+      <input type="radio" name="fleet-filter" id="flt-all" checked class="css-radio-hack" />
+      <input type="radio" name="fleet-filter" id="flt-sedan" class="css-radio-hack" />
+      <input type="radio" name="fleet-filter" id="flt-suv" class="css-radio-hack" />
+      <input type="radio" name="fleet-filter" id="flt-ev" class="css-radio-hack" />
+
+      <!-- Sub-Nav Filter Tabs -->
+      <div class="filter-tabs-wrap">
+        <label for="flt-all" class="filter-tab-label label-flt-all">All Models</label>
+        <label for="flt-sedan" class="filter-tab-label label-flt-sedan">Sedan (DS 911)</label>
+        <label for="flt-suv" class="filter-tab-label label-flt-suv">SUV (DS 1974)</label>
+        <label for="flt-ev" class="filter-tab-label label-flt-ev">EV / Hybrid (DS 3006)</label>
+      </div>
+
+      <!-- Fleet Grid -->
+      <div class="fleet-grid">
+        <!-- Card 1: DS 911 -->
+        <div class="car-card card-sedan">
+          <div class="car-card-img-wrap">
+            <img src="assets/images/ds-911.jpg" alt="DS 911" />
+          </div>
+          <div class="car-card-body">
+            <div>
+              <div class="car-card-header">
+                <h3>DS 911</h3>
+                <span class="price">₹80 Lakhs</span>
+              </div>
+              <p class="text-muted" style="font-size: 0.88rem;">
+                4.0L Twin-Turbo V8 with 650 HP. 0-100 km/h in 3.2s, top speed 320 km/h, and active carbon aerodynamics.
+              </p>
+            </div>
+            <div>
+              <div class="car-card-specs-row">
+                <div class="spec-mini"><strong>3.2s</strong><span>0-100 KM/H</span></div>
+                <div class="spec-mini"><strong>320 km/h</strong><span>TOP SPEED</span></div>
+                <div class="spec-mini"><strong>650 HP</strong><span>POWER</span></div>
+              </div>
+              <div class="car-card-actions">
+                <a href="#car-details-studio" class="btn btn-secondary btn-sm">View Details</a>
+                <a href="#customize" class="btn btn-primary btn-sm">Customize & Build</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: DS 1974 -->
+        <div class="car-card card-suv">
+          <div class="car-card-img-wrap">
+            <img src="assets/images/ds-1974.jpg" alt="DS 1974" />
+          </div>
+          <div class="car-card-body">
+            <div>
+              <div class="car-card-header">
+                <h3>DS 1974</h3>
+                <span class="price">₹1.2 Cr</span>
+              </div>
+              <p class="text-muted" style="font-size: 0.88rem;">
+                4.4L Quad-Turbo V8 Hybrid with 850 HP. Dakar dual-range 4x4 lockers, 900 mm water wading, and armored underbody.
+              </p>
+            </div>
+            <div>
+              <div class="car-card-specs-row">
+                <div class="spec-mini"><strong>3.6s</strong><span>0-100 KM/H</span></div>
+                <div class="spec-mini"><strong>290 km/h</strong><span>TOP SPEED</span></div>
+                <div class="spec-mini"><strong>850 HP</strong><span>POWER</span></div>
+              </div>
+              <div class="car-card-actions">
+                <a href="#car-details-studio" class="btn btn-secondary btn-sm">View Details</a>
+                <a href="#customize" class="btn btn-primary btn-sm">Customize & Build</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: DS 3006 -->
+        <div class="car-card card-ev">
+          <div class="car-card-img-wrap">
+            <img src="assets/images/ds-3006.jpg" alt="DS 3006" />
+          </div>
+          <div class="car-card-body">
+            <div>
+              <div class="car-card-header">
+                <h3>DS 3006</h3>
+                <span class="price">₹3 Cr</span>
+              </div>
+              <p class="text-muted" style="font-size: 0.88rem;">
+                Tri-Motor Hypercraft EV/Hybrid with 1,200 HP. 0-100 km/h in 2.1s, 410 km/h top speed, and dihedral scissor doors.
+              </p>
+            </div>
+            <div>
+              <div class="car-card-specs-row">
+                <div class="spec-mini"><strong>2.1s</strong><span>0-100 KM/H</span></div>
+                <div class="spec-mini"><strong>410 km/h</strong><span>TOP SPEED</span></div>
+                <div class="spec-mini"><strong>1,200 HP</strong><span>POWER</span></div>
+              </div>
+              <div class="car-card-actions">
+                <a href="#car-details-studio" class="btn btn-secondary btn-sm">View Details</a>
+                <a href="#customize" class="btn btn-primary btn-sm">Customize & Build</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =====================================================================
+           CAR DETAILS STUDIO (PURE CSS TABS, 360 VIEWER, AND COLOR CHANGER)
+           ===================================================================== -->
+      <input type="radio" name="dtl-tabs" id="dtl-tab-360" checked class="css-radio-hack" />
+      <input type="radio" name="dtl-tabs" id="dtl-tab-interior" class="css-radio-hack" />
+      <input type="radio" name="dtl-tabs" id="dtl-tab-features" class="css-radio-hack" />
+      <input type="radio" name="dtl-tabs" id="dtl-tab-specs" class="css-radio-hack" />
+      <input type="radio" name="dtl-tabs" id="dtl-tab-safety" class="css-radio-hack" />
+      <input type="radio" name="dtl-tabs" id="dtl-tab-colors" class="css-radio-hack" />
+      <input type="radio" name="dtl-tabs" id="dtl-tab-price" class="css-radio-hack" />
+
+      <div class="car-details-box" id="car-details-studio">
+        <div class="car-details-topbar">
+          <div>
+            <h2 style="font-size: 1.8rem;">DS Flagship Studio</h2>
+            <span class="text-cyan" style="font-weight: 600; font-size: 0.9rem;">Interactive 360° Studio & Color Customizer</span>
+          </div>
+          <div style="text-align: right;">
+            <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Starting At</span>
+            <div style="font-family: var(--font-heading); font-size: 1.8rem; color: var(--accent-gold); font-weight: 800;">₹80 Lakhs - ₹3 Cr</div>
+          </div>
+        </div>
+
+        <!-- Pure CSS Studio Tab Navigation -->
+        <div class="details-tab-nav">
+          <label for="dtl-tab-360" class="details-tab-label label-dtl-360">360° View Studio</label>
+          <label for="dtl-tab-interior" class="details-tab-label label-dtl-interior">Interior Cockpit</label>
+          <label for="dtl-tab-features" class="details-tab-label label-dtl-features">Features</label>
+          <label for="dtl-tab-specs" class="details-tab-label label-dtl-specs">Performance Specs</label>
+          <label for="dtl-tab-safety" class="details-tab-label label-dtl-safety">Safety Standards</label>
+          <label for="dtl-tab-colors" class="details-tab-label label-dtl-colors">Colors Swatch</label>
+          <label for="dtl-tab-price" class="details-tab-label label-dtl-price">Price Breakdown</label>
+        </div>
+
+        <!-- Tab 1: 360° Studio (Pure CSS Angle Switcher) -->
+        <div class="details-tab-pane" id="pane-dtl-360">
+          <input type="radio" name="viewer-angle" id="ang-front" checked class="css-radio-hack" />
+          <input type="radio" name="viewer-angle" id="ang-side" class="css-radio-hack" />
+          <input type="radio" name="viewer-angle" id="ang-rear" class="css-radio-hack" />
+          <input type="radio" name="viewer-angle" id="ang-cockpit" class="css-radio-hack" />
+
+          <div class="viewer-box">
+            <div class="viewer-wrap">
+              <img src="assets/images/ds-911.jpg" alt="360 View" />
+            </div>
+            <div class="viewer-angles">
+              <label for="ang-front" class="angle-label label-ang-front">Front 3/4</label>
+              <label for="ang-side" class="angle-label label-ang-side">Side Profile</label>
+              <label for="ang-rear" class="angle-label label-ang-rear">Rear Stance</label>
+              <label for="ang-cockpit" class="angle-label label-ang-cockpit">Cockpit Focus</label>
+            </div>
+          </div>
+          <div style="text-align: center; margin-top: 24px;">
+            <a href="#customize" class="btn btn-primary">Customize This Car →</a>
+          </div>
+        </div>
+
+        <!-- Tab 2: Interior Cockpit -->
+        <div class="details-tab-pane" id="pane-dtl-interior">
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+            <div class="car-card">
+              <img src="assets/images/ds-911.jpg" style="height: 180px; object-fit: cover;" alt="Dual OLED Displays" />
+              <div style="padding: 16px;">
+                <h4>Dual 14.9" Curved OLED</h4>
+                <p class="text-muted" style="font-size: 0.85rem;">Ultra-HD glass display with biometric user profiles.</p>
+              </div>
+            </div>
+            <div class="car-card">
+              <img src="assets/images/ds-911.jpg" style="height: 180px; object-fit: cover; object-position: center bottom;" alt="Nappa Comfort" />
+              <div style="padding: 16px;">
+                <h4>Hand-Crafted Nappa Seats</h4>
+                <p class="text-muted" style="font-size: 0.85rem;">18-way pneumatic massage with active lateral bolsters.</p>
+              </div>
+            </div>
+            <div class="car-card">
+              <img src="assets/images/ds-911.jpg" style="height: 180px; object-fit: cover; object-position: right top;" alt="Ambient Lights" />
+              <div style="padding: 16px;">
+                <h4>64-Color Aurora Ambient</h4>
+                <p class="text-muted" style="font-size: 0.85rem;">Dynamic LED illumination pulsating with acceleration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 3: Features -->
+        <div class="details-tab-pane" id="pane-dtl-features">
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+            <div class="option-card">
+              <div style="font-size: 1.8rem; margin-bottom: 6px;">🏎️</div>
+              <h4>Active Aerodynamics</h4>
+              <p class="text-muted" style="font-size: 0.85rem;">Electronic downforce splitters and adaptive rear spoiler.</p>
+            </div>
+            <div class="option-card">
+              <div style="font-size: 1.8rem; margin-bottom: 6px;">⚡</div>
+              <h4>AI Drive Assist L3</h4>
+              <p class="text-muted" style="font-size: 0.85rem;">Autonomous highway lane piloting and LiDAR matrix.</p>
+            </div>
+            <div class="option-card">
+              <div style="font-size: 1.8rem; margin-bottom: 6px;">🔊</div>
+              <h4>Bang & Olufsen 3D</h4>
+              <p class="text-muted" style="font-size: 0.85rem;">24-speaker acoustic sanctuary with road cancellation.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 4: Performance Specs -->
+        <div class="details-tab-pane" id="pane-dtl-specs">
+          <table class="specs-table">
+            <tbody>
+              <tr><th>Flagship Powertrain</th><td>4.0L Twin-Turbo V8 (650 HP) / Tri-Motor Hypercraft (1200 HP)</td></tr>
+              <tr><th>Acceleration 0-100 km/h</th><td class="text-cyan">2.1s - 3.2 seconds</td></tr>
+              <tr><th>Top Speed</th><td class="text-gold">320 km/h - 410 km/h</td></tr>
+              <tr><th>Drivetrain</th><td>Intelligent All-Wheel Drive with Torque Vectoring</td></tr>
+              <tr><th>Peak Torque</th><td>850 Nm - 1,400 Nm Instantaneous</td></tr>
+              <tr><th>Efficiency & Range</th><td>720 km Pure EV Range / 11.4 km/l Hybrid Assist</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Tab 5: Safety Standards -->
+        <div class="details-tab-pane" id="pane-dtl-safety">
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+            <div class="option-card">
+              <div style="font-size: 1.8rem; margin-bottom: 6px;">🛡️</div>
+              <h4>5-Star Euro NCAP</h4>
+              <p class="text-muted" style="font-size: 0.85rem;">Formula 1 carbon monocoque cell protection.</p>
+            </div>
+            <div class="option-card">
+              <div style="font-size: 1.8rem; margin-bottom: 6px;">🪂</div>
+              <h4>10 Airbags System</h4>
+              <p class="text-muted" style="font-size: 0.85rem;">Comprehensive curtain, lateral, and dual knee protection.</p>
+            </div>
+            <div class="option-card">
+              <div style="font-size: 1.8rem; margin-bottom: 6px;">🛑</div>
+              <h4>Carbon-Ceramic Braking</h4>
+              <p class="text-muted" style="font-size: 0.85rem;">Stops from 100-0 km/h in 31 meters with zero fade.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 6: Colors Swatch (Pure CSS Live Car Tinting) -->
+        <div class="details-tab-pane" id="pane-dtl-colors">
+          <input type="radio" name="car-paint" id="paint-black" checked class="css-radio-hack" />
+          <input type="radio" name="car-paint" id="paint-blue" class="css-radio-hack" />
+          <input type="radio" name="car-paint" id="paint-emerald" class="css-radio-hack" />
+          <input type="radio" name="car-paint" id="paint-silver" class="css-radio-hack" />
+          <input type="radio" name="car-paint" id="paint-orange" class="css-radio-hack" />
+
+          <div class="color-studio" style="text-align: center;">
+            <h3>Select Live Paintwork Finish</h3>
+            <p class="text-muted" style="font-size: 0.9rem;">Click any color swatch below to see the car's color change in real time via pure CSS filters:</p>
+            <div class="swatches-row">
+              <label for="paint-black" class="swatch-label swatch-black" style="background: #111827;" title="Obsidian Black"></label>
+              <label for="paint-blue" class="swatch-label swatch-blue" style="background: #1d4ed8;" title="Monaco Blue"></label>
+              <label for="paint-emerald" class="swatch-label swatch-emerald" style="background: #059669;" title="Cyber Emerald"></label>
+              <label for="paint-silver" class="swatch-label swatch-silver" style="background: #94a3b8;" title="Liquid Silver"></label>
+              <label for="paint-orange" class="swatch-label swatch-orange" style="background: #ea580c;" title="Sunset Orange"></label>
+            </div>
+
+            <div class="color-img-preview" style="max-width: 600px; height: 320px; margin: 0 auto 20px; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border);">
+              <img src="assets/images/ds-911.jpg" alt="Live Color Preview" style="width: 100%; height: 100%; object-fit: cover; transition: filter 0.4s ease;" />
+            </div>
+
+            <a href="#customize" class="btn btn-primary">Lock Color & Proceed to Atelier →</a>
+          </div>
+        </div>
+
+        <!-- Tab 7: Price Breakdown -->
+        <div class="details-tab-pane" id="pane-dtl-price">
+          <div class="price-card">
+            <h3 style="margin-bottom: 16px;">Estimated On-Road Total (DS 911)</h3>
+            <div class="price-item"><span>Base Ex-Showroom</span><strong>₹80,00,000</strong></div>
+            <div class="price-item"><span>RTO Registration Tax (Est. 10%)</span><strong>₹8,00,000</strong></div>
+            <div class="price-item"><span>Comprehensive 3-Yr Insurance</span><strong>₹2,80,000</strong></div>
+            <div class="price-item"><span>TCS Luxury Tax & FASTag</span><strong>₹60,000</strong></div>
+            <div class="price-item total"><span>Total On-Road Estimate</span><strong>₹91,40,000</strong></div>
+
+            <div style="display: flex; gap: 12px; margin-top: 24px;">
+              <a href="#customize" class="btn btn-primary" style="flex: 1;">Customize Car</a>
+              <a href="#testdrive" class="btn btn-secondary" style="flex: 1;">Book Test Drive</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. SECTION: OFFERS & SENIOR CITIZEN MODAL (PURE CSS)
+       ========================================================================= -->
+  <section class="site-section" id="offers">
+    <div class="container">
+      <div class="section-title">
+        <span class="badge badge-gold">Ownership Privileges</span>
+        <h2>Exclusive Acquisition Privileges</h2>
+        <p>Rewarding ambition and wisdom with unmatched ownership schemes.</p>
+      </div>
+
+      <!-- Pure CSS Modal Toggle Checkbox -->
+      <input type="checkbox" id="senior-modal-toggle" class="css-radio-hack" />
+
+      <div class="offers-grid">
+        <!-- Senior Citizen Concession Card -->
+        <div class="offer-box gold">
+          <div>
+            <span class="badge badge-gold" style="margin-bottom: 12px;">👑 Senior Citizen Privilege</span>
+            <h3>Senior Citizen Golden Advantage</h3>
+            <p class="text-muted" style="margin: 10px 0 16px;">
+              Patrons aged 60 and above receive a direct flat discount of <strong>₹1,50,000</strong> plus lifetime complimentary chauffeur safety training and doorstep concierge valet.
+            </p>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem; margin-bottom: 24px;">
+              <li>✓ <strong>₹1,50,000 Direct Price Concession</strong></li>
+              <li>✓ Free Doorstep Valet Concierge for annual servicing</li>
+              <li>✓ Priority vehicle production VIN allocation</li>
+            </ul>
+          </div>
+          <label for="senior-modal-toggle" class="btn btn-gold btn-block">Check Eligibility & Claim Concession →</label>
+        </div>
+
+        <!-- Festive Offer Card -->
+        <div class="offer-box">
+          <div>
+            <span class="badge badge-cyan" style="margin-bottom: 12px;">🎉 Festive Shield Package</span>
+            <h3>Festive Royal Shield Experience</h3>
+            <p class="text-muted" style="margin: 10px 0 16px;">
+              Complimentary 9H ceramic coating and 3 years scheduled maintenance worth <strong>₹2,50,000</strong> included on all bookings this month.
+            </p>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem; margin-bottom: 24px;">
+              <li>✓ 3-Year Zero-Cost Periodic Maintenance</li>
+              <li>✓ 9H Nano-Ceramic Protective Shield</li>
+              <li>✓ 24/7 Pan-India Flat-Bed Roadside Assistance</li>
+            </ul>
+          </div>
+          <a href="#explore" class="btn btn-primary btn-block">Claim Festive Privilege →</a>
+        </div>
+      </div>
+
+      <!-- Pure CSS Senior Citizen Modal -->
+      <div class="modal-overlay">
+        <div class="modal-box">
+          <label for="senior-modal-toggle" class="modal-close">×</label>
+          <span class="badge badge-gold" style="margin-bottom: 8px;">👑 Privilege Verification</span>
+          <h3>Senior Citizen Concession</h3>
+          <p class="text-muted" style="font-size: 0.85rem; margin: 6px 0 16px;">Age 60 and above qualifies for a flat ₹1,50,000 concession.</p>
+          <form action="#customize">
+            <label style="font-size: 0.85rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Age of Primary Owner / Nominee (60+)</label>
+            <input type="number" min="60" max="100" value="64" required style="margin-bottom: 16px;" />
+            <label for="senior-modal-toggle" class="btn btn-gold btn-block">Apply ₹1,50,000 Discount & Close</label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. SECTION: SHARED CUSTOMIZER & PRICE BUILDER
+       ========================================================================= -->
+  <section class="site-section" id="customize">
+    <div class="container">
+      <div class="section-title">
+        <span class="badge badge-cyan">Atelier</span>
+        <h2>Customize Your DS</h2>
+        <p>Personalize paintwork, cockpit leather, and aerodynamic upgrades.</p>
+      </div>
+
+      <div class="custom-layout">
+        <!-- Left: Sticky Preview -->
+        <div class="custom-preview">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+            <div>
+              <h3>DS 911 Performance</h3>
+              <span class="text-cyan" style="font-size: 0.85rem; font-weight: 600;">Performance Sedan</span>
+            </div>
+            <a href="#explore" class="btn btn-secondary btn-sm">Change Model</a>
+          </div>
+
+          <div class="custom-img-wrap">
+            <img src="assets/images/ds-911.jpg" alt="Customizer Preview" />
+          </div>
+
+          <div style="padding: 14px; background: var(--bg-darker); border-radius: var(--radius-sm); border: 1px solid var(--border);">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Net Ex-Showroom:</span>
+              <strong>₹80,00,000</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Total On-Road Est:</span>
+              <strong class="text-gold">₹91,40,000</strong>
+            </div>
+          </div>
+
+          <a href="#testdrive" class="btn btn-primary btn-block" style="margin-top: 16px;">
+            Schedule Test Drive →
+          </a>
+        </div>
+
+        <!-- Right: Options -->
+        <div class="portal-card">
+          <h4>1. Exterior Paintwork</h4>
+          <div class="options-grid">
+            <div class="option-card" style="border-color: var(--accent-cyan); background: var(--accent-cyan-bg);">
+              <strong>Obsidian Stealth Black</strong>
+              <div class="text-gold" style="font-size: 0.85rem;">Included</div>
+            </div>
+            <div class="option-card">
+              <strong>Monaco Royal Blue</strong>
+              <div class="text-gold" style="font-size: 0.85rem;">+₹1,20,000</div>
+            </div>
+            <div class="option-card">
+              <strong>Cyber Emerald Green</strong>
+              <div class="text-gold" style="font-size: 0.85rem;">+₹1,50,000</div>
+            </div>
+            <div class="option-card">
+              <strong>Sunset Lava Orange</strong>
+              <div class="text-gold" style="font-size: 0.85rem;">+₹1,80,000</div>
+            </div>
+          </div>
+
+          <h4 style="margin-top: 24px;">2. Cockpit Interior</h4>
+          <div class="options-grid">
+            <div class="option-card" style="border-color: var(--accent-cyan); background: var(--accent-cyan-bg);">
+              <strong>Black Nappa Leather</strong>
+              <div class="text-gold" style="font-size: 0.85rem;">Included</div>
+            </div>
+            <div class="option-card">
+              <strong>Tuscan Cognac Leather</strong>
+              <div class="text-gold" style="font-size: 0.85rem;">+₹1,50,000</div>
+            </div>
+          </div>
+
+          <h4 style="margin-top: 24px;">3. Performance Accessories</h4>
+          <div class="options-grid">
+            <div class="option-card">
+              <strong>Carbon Aero Splitters</strong>
+              <div class="text-gold" style="font-size: 0.85rem;">+₹2,50,000</div>
+            </div>
+            <div class="option-card">
+              <strong>Titanium Sport Exhaust</strong>
+              <div class="text-gold" style="font-size: 0.85rem;">+₹1,80,000</div>
+            </div>
+          </div>
+
+          <a href="#testdrive" class="btn btn-gold btn-block" style="margin-top: 24px;">
+            Confirm Customizations & Book Test Drive →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. SECTION: BOOK TEST DRIVE & DEALER LOCATOR
+       ========================================================================= -->
+  <section class="site-section" id="testdrive">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-title">
+        <span class="badge badge-cyan">Experience</span>
+        <h2>Book Your Test Drive</h2>
+        <p>Select your preferred test drive format and flagship lounge location.</p>
+      </div>
+
+      <div class="portal-card">
+        <h4>1. Test Drive Experience Mode</h4>
+        <div class="radio-cards" style="grid-template-columns: repeat(3, 1fr);">
+          <div class="radio-box" style="border-color: var(--accent-cyan); background: var(--accent-cyan-bg);">
+            <div style="font-size: 1.8rem;">🏢</div>
+            <h4>Showroom Lounge</h4>
+            <p>Private circuit drive.</p>
+          </div>
+          <div class="radio-box">
+            <div style="font-size: 1.8rem;">🏡</div>
+            <h4>Doorstep Drive</h4>
+            <p>Delivered to your home.</p>
+          </div>
+          <div class="radio-box">
+            <div style="font-size: 1.8rem;">🥽</div>
+            <h4>Virtual 4K VR</h4>
+            <p>Interactive digital tour.</p>
+          </div>
+        </div>
+
+        <h4 style="margin-top: 20px;">2. Flagship Dealership Lounges</h4>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 10px;">
+          <div class="option-card" style="border-color: var(--accent-cyan); background: var(--accent-cyan-bg);">
+            <strong>DS Flagship Lounge - Worli, Mumbai</strong>
+            <p class="text-muted" style="font-size: 0.85rem; margin: 4px 0;">📍 Dr. Annie Besant Rd, Worli Seaface, Mumbai 400018</p>
+            <span class="text-cyan" style="font-size: 0.8rem;">📞 +91 22 8990 1974</span>
+          </div>
+          <div class="option-card">
+            <strong>DS Experience Center - Connaught Place, New Delhi</strong>
+            <p class="text-muted" style="font-size: 0.85rem; margin: 4px 0;">📍 Barakhamba Rd, Connaught Place, New Delhi 110001</p>
+            <span class="text-cyan" style="font-size: 0.8rem;">📞 +91 11 4455 0911</span>
+          </div>
+          <div class="option-card">
+            <strong>DS Tech Sanctuary - Indiranagar, Bengaluru</strong>
+            <p class="text-muted" style="font-size: 0.85rem; margin: 4px 0;">📍 100 Feet Rd, Indiranagar, Bengaluru 560038</p>
+            <span class="text-cyan" style="font-size: 0.8rem;">📞 +91 80 6712 3006</span>
+          </div>
+        </div>
+
+        <h4 style="margin-top: 24px;">3. Preferred Date & Time Window</h4>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 24px;">
+          <input type="date" value="2026-09-28" />
+          <select>
+            <option>10:00 AM - 11:30 AM</option>
+            <option selected>12:30 PM - 02:00 PM</option>
+            <option>03:30 PM - 05:00 PM</option>
+            <option>06:00 PM - 07:30 PM</option>
+          </select>
+        </div>
+
+        <a href="#decision" class="btn btn-primary btn-block btn-lg">
+          Confirm Test Drive Reservation →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. SECTION: "LIKE THE CAR?" DECISION GATE
+       ========================================================================= -->
+  <section class="site-section" id="decision">
+    <div class="container" style="max-width: 640px; text-align: center;">
+      <div class="portal-card" style="padding: 40px;">
+        <span class="badge badge-gold" style="margin-bottom: 12px;">Test Drive Reflection</span>
+        <h2>Did You Like The Car?</h2>
+        <p class="text-muted" style="margin: 12px 0 24px;">
+          Tell us your impression to steer your next acquisition milestone:
+        </p>
+
+        <div style="display: flex; justify-content: center; gap: 16px;">
+          <a href="#explore" class="btn btn-secondary btn-lg">
+            ❌ No, Not For Me (Explore Fleet)
+          </a>
+          <a href="#booking" class="btn btn-primary btn-lg">
+            ❤️ Yes, I Love It! (Proceed to Buy)
+          </a>
+        </div>
+
+        <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--border);">
+          <span class="text-muted" style="font-size: 0.9rem; display: block; margin-bottom: 12px;">Have an existing vehicle to trade in?</span>
+          <a href="#exchange" class="btn btn-gold">🔄 Exchange Old Car (Trade-In Wizard)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. SECTION: 9-STEP EXCHANGE YOUR CAR WIZARD (PURE CSS RADIO STEPPER)
+       ========================================================================= -->
+  <section class="site-section" id="exchange">
+    <div class="container">
+      <div class="section-title">
+        <span class="badge badge-cyan">Trade-In</span>
+        <h2>Exchange Your Existing Car</h2>
+        <p>Instant algorithmic appraisal with an exclusive ₹1,00,000 luxury upgrade bonus.</p>
+      </div>
+
+      <!-- Pure CSS Exchange Wizard Radio Controller -->
+      <input type="radio" name="ex-step" id="ex-s1" checked class="css-radio-hack" />
+      <input type="radio" name="ex-step" id="ex-s2" class="css-radio-hack" />
+      <input type="radio" name="ex-step" id="ex-s3" class="css-radio-hack" />
+      <input type="radio" name="ex-step" id="ex-s4" class="css-radio-hack" />
+      <input type="radio" name="ex-step" id="ex-s5" class="css-radio-hack" />
+      <input type="radio" name="ex-step" id="ex-s6" class="css-radio-hack" />
+      <input type="radio" name="ex-step" id="ex-s7" class="css-radio-hack" />
+      <input type="radio" name="ex-step" id="ex-s8" class="css-radio-hack" />
+      <input type="radio" name="ex-step" id="ex-s9" class="css-radio-hack" />
+
+      <div class="exchange-box">
+        <!-- 9-Step Stepper -->
+        <div class="wizard-stepper">
+          <div class="step-bubble ex-b1">1. Reg</div>
+          <div class="step-bubble ex-b2">2. Model</div>
+          <div class="step-bubble ex-b3">3. KM</div>
+          <div class="step-bubble ex-b4">4. Photos</div>
+          <div class="step-bubble ex-b5">5. Value</div>
+          <div class="step-bubble ex-b6">6. Choice</div>
+          <div class="step-bubble ex-b7">7. Bonus</div>
+          <div class="step-bubble ex-b8">8. Compare</div>
+          <div class="step-bubble ex-b9">9. Final EMI</div>
+        </div>
+
+        <!-- Step 1: Registration Input -->
+        <div class="step-pane" id="pane-ex-1">
+          <h3>Step 1: Enter Vehicle Registration</h3>
+          <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">Enter your vehicle registration to pull verification records.</p>
+          <input type="text" placeholder="e.g. MH 02 CP 8899" value="MH 02 CP 8899" style="text-align: center; font-size: 1.2rem; text-transform: uppercase;" />
+          <div style="margin-top: 20px; text-align: right;">
+            <label for="ex-s2" class="btn btn-primary">Next: Select Model →</label>
+          </div>
+        </div>
+
+        <!-- Step 2: Model -->
+        <div class="step-pane" id="pane-ex-2">
+          <h3>Step 2: Vehicle Make & Model</h3>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 20px 0;">
+            <select>
+              <option>BMW</option>
+              <option>Mercedes-Benz</option>
+              <option>Audi</option>
+              <option>Porsche</option>
+            </select>
+            <select>
+              <option>3 Series / C-Class</option>
+              <option>5 Series / E-Class</option>
+              <option>X3 / GLC</option>
+            </select>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <label for="ex-s1" class="btn btn-secondary">← Back</label>
+            <label for="ex-s3" class="btn btn-primary">Next: KM Driven →</label>
+          </div>
+        </div>
+
+        <!-- Step 3: KM Driven -->
+        <div class="step-pane" id="pane-ex-3">
+          <h3>Step 3: Total Kilometers Driven</h3>
+          <div class="slider-container">
+            <div class="slider-val" style="font-size: 2rem;">35,000 KM</div>
+            <input type="range" min="5000" max="150000" value="35000" style="width: 100%;" />
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <label for="ex-s2" class="btn btn-secondary">← Back</label>
+            <label for="ex-s4" class="btn btn-primary">Next: Upload Photos →</label>
+          </div>
+        </div>
+
+        <!-- Step 4: Upload Photos -->
+        <div class="step-pane" id="pane-ex-4">
+          <h3>Step 4: Upload Vehicle Photos</h3>
+          <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 16px;">Drag and drop condition photos or click to browse.</p>
+          <div class="dropzone">
+            <div style="font-size: 2.4rem;">📷</div>
+            <strong>Click or Drag Photos Here</strong>
+            <p class="text-muted" style="font-size: 0.8rem; margin-top: 4px;">Supports JPG, PNG up to 10MB</p>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+            <label for="ex-s3" class="btn btn-secondary">← Back</label>
+            <label for="ex-s5" class="btn btn-primary">Calculate Value →</label>
+          </div>
+        </div>
+
+        <!-- Step 5: Estimated Value -->
+        <div class="step-pane" id="pane-ex-5">
+          <h3>Step 5: Estimated Trade-In Valuation</h3>
+          <div class="slider-container">
+            <span class="badge badge-cyan" style="margin-bottom: 8px;">Algorithmic Valuation</span>
+            <div class="slider-val">₹28,50,000</div>
+            <p class="text-muted" style="font-size: 0.9rem;">2021 BMW 3 Series • 35,000 km driven</p>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <label for="ex-s4" class="btn btn-secondary">← Back</label>
+            <label for="ex-s6" class="btn btn-gold">Proceed to Choice →</label>
+          </div>
+        </div>
+
+        <!-- Step 6: Choice -->
+        <div class="step-pane" id="pane-ex-6">
+          <h3>Step 6: Accept Value or Get Inspection</h3>
+          <div class="radio-cards" style="grid-template-columns: 1fr 1fr;">
+            <label for="ex-s7" class="radio-box" style="border-color: var(--accent-cyan); text-decoration: none; color: inherit;">
+              <div style="font-size: 2rem;">⚡</div>
+              <h4>Accept Value Instantly</h4>
+              <p>Apply credit directly to your new DS.</p>
+            </label>
+            <label for="ex-s7" class="radio-box" style="text-decoration: none; color: inherit;">
+              <div style="font-size: 2rem;">🏡</div>
+              <h4>Schedule Free Inspection</h4>
+              <p>Doorstep 160-point verification.</p>
+            </label>
+          </div>
+        </div>
+
+        <!-- Step 7: Bonus Celebration -->
+        <div class="step-pane" id="pane-ex-7">
+          <div class="celebrate-card">
+            <div style="font-size: 3rem;">🎉 👑</div>
+            <h2 style="color: var(--accent-gold); margin: 8px 0;">+₹1,00,000 Upgrade Bonus!</h2>
+            <p style="color: var(--text-main); font-size: 1.05rem;">
+              As an esteemed patron upgrading to DS, your trade-in credit has been augmented by an extra ₹1,00,000.
+            </p>
+          </div>
+          <div style="text-align: right;">
+            <label for="ex-s8" class="btn btn-primary btn-lg">Compare With New Car Price →</label>
+          </div>
+        </div>
+
+        <!-- Step 8: Price Comparison -->
+        <div class="step-pane" id="pane-ex-8">
+          <h3>Step 8: Trade-In Offset Comparison</h3>
+          <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 16px; align-items: center; margin: 24px 0; text-align: center;">
+            <div class="portal-card" style="padding: 20px;">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">New DS 911</span>
+              <h3 class="text-cyan">₹80,00,000</h3>
+            </div>
+            <div style="font-size: 2rem; color: var(--accent-gold); font-weight: 800;">—</div>
+            <div class="portal-card" style="padding: 20px;">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Trade-In + Bonus</span>
+              <h3 style="color: var(--accent-green);">-₹29,50,000</h3>
+            </div>
+          </div>
+          <div style="text-align: center; padding: 20px; background: var(--bg-darker); border-radius: var(--radius-md); border: 1px solid var(--accent-gold); margin-bottom: 20px;">
+            <span style="font-size: 0.85rem; color: var(--text-muted);">Net Balance Due:</span>
+            <div style="font-size: 2.2rem; font-family: var(--font-heading); color: var(--accent-gold); font-weight: 800;">₹50,50,000</div>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <label for="ex-s7" class="btn btn-secondary">← Back</label>
+            <label for="ex-s9" class="btn btn-primary">Next: Final EMI Structuring →</label>
+          </div>
+        </div>
+
+        <!-- Step 9: Final EMI -->
+        <div class="step-pane" id="pane-ex-9">
+          <h3>Step 9: Real-Time Final EMI Structuring</h3>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 24px 0;">
+            <div>
+              <label style="font-size: 0.85rem; color: var(--text-muted);">Loan Tenure</label>
+              <div class="text-cyan" style="font-weight: 700; margin-bottom: 6px;">60 Months (5 Yrs)</div>
+              <input type="range" min="12" max="84" value="60" style="width: 100%;" />
+
+              <label style="font-size: 0.85rem; color: var(--text-muted); margin-top: 16px; display: block;">Interest Rate</label>
+              <div class="text-gold" style="font-weight: 700; margin-bottom: 6px;">8.5% Fixed</div>
+              <input type="range" min="7" max="11" value="8" style="width: 100%;" />
+            </div>
+            <div style="padding: 20px; background: var(--bg-darker); border-radius: var(--radius-md); text-align: center; display: flex; flex-direction: column; justify-content: center;">
+              <span style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted);">Monthly Financed EMI</span>
+              <div style="font-family: var(--font-heading); font-size: 2.2rem; color: var(--accent-cyan); font-weight: 800;">₹1,03,500/mo</div>
+              <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 8px;">
+                Principal: ₹50,50,000 | Total Payable: ₹62,10,000
+              </div>
+            </div>
+          </div>
+          <div style="text-align: right;">
+            <a href="#booking" class="btn btn-gold btn-lg">Proceed to Online Booking →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. SECTION: FINAL CHECKOUT & ORDER CONFIRMED
+       ========================================================================= -->
+  <section class="site-section" id="booking">
+    <div class="container">
+      <div class="section-title">
+        <span class="badge badge-gold">Reservation</span>
+        <h2>Complete Your Allocation</h2>
+        <p>Lock in your bespoke DS with a 100% refundable token of ₹1,00,000.</p>
+      </div>
+
+      <div class="checkout-grid">
+        <!-- Patron Form -->
+        <div class="portal-card">
+          <h3 style="margin-bottom: 16px;">Patron Information</h3>
+          <form action="#confirmed">
+            <div style="margin-bottom: 12px;">
+              <label style="font-size: 0.85rem; color: var(--text-muted);">Full Legal Name</label>
+              <input type="text" value="Vikramaditya Singhania" required />
+            </div>
+            <div style="margin-bottom: 12px;">
+              <label style="font-size: 0.85rem; color: var(--text-muted);">Phone Number</label>
+              <input type="tel" value="+91 98765 43210" required />
+            </div>
+            <div style="margin-bottom: 12px;">
+              <label style="font-size: 0.85rem; color: var(--text-muted);">Email Address</label>
+              <input type="email" value="patron@singhaniagroup.com" required />
+            </div>
+            <div style="margin-bottom: 20px;">
+              <label style="font-size: 0.85rem; color: var(--text-muted);">Delivery City</label>
+              <input type="text" value="Mumbai" required />
+            </div>
+            <a href="#confirmed" class="btn btn-gold btn-lg btn-block">Confirm & Pay ₹1,00,000 Token →</a>
+          </form>
+        </div>
+
+        <!-- Invoice Summary -->
+        <div class="price-card">
+          <h3 style="margin-bottom: 16px;">Invoice Summary</h3>
+          <div class="price-item"><span>Selected Vehicle</span><strong>DS 911 Performance Sedan</strong></div>
+          <div class="price-item"><span>Base Ex-Showroom</span><strong>₹80,00,000</strong></div>
+          <div class="price-item"><span>Custom Paint</span><strong>Obsidian Black</strong></div>
+          <div class="price-item"><span>Interior Trim</span><strong>Nappa Leather</strong></div>
+          <div class="price-item" style="color: var(--accent-green);">
+            <span>Trade-In Credit + Bonus</span><strong>-₹29,50,000</strong>
+          </div>
+          <div class="price-item" style="color: var(--accent-gold);">
+            <span>Senior Citizen Privilege</span><strong>-₹1,50,000</strong>
+          </div>
+          <div class="price-item total">
+            <span>Total Estimated Due</span><strong>₹60,60,000</strong>
+          </div>
+          <div style="margin-top: 20px; padding: 12px; background: rgba(0, 240, 255, 0.05); border-radius: var(--radius-sm); font-size: 0.85rem;">
+            <span>Today's Payable Token: </span><strong class="text-cyan">₹1,00,000 (Refundable)</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. SECTION: ORDER CONFIRMED
+       ========================================================================= -->
+  <section class="site-section" id="confirmed">
+    <div class="container">
+      <div class="confirmed-card">
+        <div class="check-icon">✓</div>
+        <span class="badge badge-gold" style="margin-bottom: 10px;">Order Secured</span>
+        <h2>Welcome to the DS Family</h2>
+        <p class="text-muted" style="margin: 10px 0 24px;">Your order has been officially confirmed. You have claimed what you truly deserve.</p>
+
+        <div style="background: var(--bg-darker); padding: 20px; border-radius: var(--radius-md); text-align: left; margin-bottom: 24px;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+            <span class="text-muted">Order ID:</span>
+            <strong class="text-cyan" style="font-family: var(--font-heading);">DS-2026-911-8842</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+            <span class="text-muted">Vehicle Model:</span>
+            <strong>DS 911 Performance Sedan</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+            <span class="text-muted">Patron:</span>
+            <strong>Vikramaditya Singhania</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <span class="text-muted">Estimated Delivery:</span>
+            <strong class="text-gold">3 - 4 Weeks</strong>
+          </div>
+        </div>
+
+        <div style="max-width: 400px; height: 180px; margin: 0 auto 24px; border-radius: var(--radius-md); overflow: hidden;">
+          <img src="assets/images/ds-911.jpg" alt="Confirmed Car" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 14px;">
+          <a href="#home" class="btn btn-primary">Return to Homepage</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div>
+          <div class="brand" style="margin-bottom: 12px;">
+            <div class="brand-emblem">DS</div>
+            <span class="brand-name">DS PVT LTD</span>
+          </div>
+          <p class="text-muted" style="font-size: 0.85rem; max-width: 280px;">
+            You deserve luxury. World-class automotive performance, bespoke craftsmanship, and guaranteed trade-ins.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Fleet</h4>
+          <ul>
+            <li><a href="#explore">DS 911 (₹80 L)</a></li>
+            <li><a href="#explore">DS 1974 (₹1.2 Cr)</a></li>
+            <li><a href="#explore">DS 3006 (₹3 Cr)</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#customize">Custom Atelier</a></li>
+            <li><a href="#exchange">Exchange Car</a></li>
+            <li><a href="#testdrive">Test Drive</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">
+            Flagship Lounges in Mumbai, Delhi, Bengaluru, Hyderabad & Chennai.
+          </p>
+          <div class="text-cyan" style="font-size: 0.85rem; font-weight: 700; margin-top: 6px;">
+            📞 +91 22 8990 1974
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 DS Pvt Ltd. All Rights Reserved. Pure HTML & CSS.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
