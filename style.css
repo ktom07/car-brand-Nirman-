@@ -1,6 +1,6 @@
 /* ==========================================================================
    DS PVT LTD - 100% PURE HTML & CSS (ZERO JAVASCRIPT)
-   Theme: Midnight Navy, Ice White, Electric Cyan & Gold Accents
+  Theme: Soft White, Sage Green & Terracotta Accents
    Design Ethos: "You Deserve Luxury"
    Features: Pure CSS Tabs, 360 Viewer, Color Changer, Steppers & Modals
    ========================================================================== */
@@ -8,24 +8,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg-dark: #070b16;
-  --bg-darker: #04070f;
-  --bg-card: #0e172a;
-  --bg-card-hover: #131f38;
-  --bg-elevated: #162238;
+  --bg-dark: #f5f7f3;
+  --bg-darker: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #eff3ed;
+  --bg-elevated: #e8eee7;
 
-  --accent-cyan: #00f0ff;
-  --accent-cyan-bg: rgba(0, 240, 255, 0.12);
-  --accent-gold: #f59e0b;
-  --accent-gold-bg: rgba(245, 158, 11, 0.12);
-  --accent-green: #10b981;
+  --accent-cyan: #456b52;
+  --accent-cyan-bg: rgba(69, 107, 82, 0.11);
+  --accent-gold: #ad6246;
+  --accent-gold-bg: rgba(173, 98, 70, 0.11);
+  --accent-green: #477a59;
 
-  --text-main: #f8fafc;
-  --text-muted: #94a3b8;
-  --text-dim: #64748b;
+  --text-main: #252b27;
+  --text-muted: #606b63;
+  --text-dim: #778078;
 
-  --border: rgba(255, 255, 255, 0.1);
-  --border-cyan: rgba(0, 240, 255, 0.4);
+  --border: rgba(37, 52, 41, 0.13);
+  --border-cyan: rgba(69, 107, 82, 0.38);
 
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
@@ -35,7 +35,7 @@
   --radius-lg: 20px;
   --radius-full: 9999px;
 
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  --shadow: 0 10px 30px rgba(35, 49, 38, 0.1);
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -57,9 +57,9 @@ body {
   color: var(--text-main);
   line-height: 1.6;
   overflow-x: hidden;
-  background-image: 
-    radial-gradient(circle at 15% 15%, rgba(0, 240, 255, 0.05) 0%, transparent 40%),
-    radial-gradient(circle at 85% 65%, rgba(245, 158, 11, 0.04) 0%, transparent 40%);
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(69, 107, 82, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 85% 65%, rgba(173, 98, 70, 0.045) 0%, transparent 40%);
   background-attachment: fixed;
 }
 
@@ -103,7 +103,7 @@ h1, h2, h3, h4 {
 .badge-gold {
   background: var(--accent-gold-bg);
   color: var(--accent-gold);
-  border: 1px solid rgba(245, 158, 11, 0.35);
+  border: 1px solid rgba(173, 98, 70, 0.35);
 }
 
 /* Buttons */
@@ -125,36 +125,36 @@ h1, h2, h3, h4 {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent-cyan) 0%, #0099ff 100%);
-  color: #030712;
+  background: linear-gradient(135deg, #54795f 0%, var(--accent-cyan) 100%);
+  color: #ffffff;
   font-weight: 700;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 240, 255, 0.4);
+  box-shadow: 0 6px 20px rgba(69, 107, 82, 0.28);
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--bg-elevated);
   color: var(--text-main);
   border: 1px solid var(--border);
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--bg-card-hover);
   border-color: var(--accent-cyan);
 }
 
 .btn-gold {
-  background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
-  color: #030712;
+  background: linear-gradient(135deg, #c17a59 0%, var(--accent-gold) 100%);
+  color: #ffffff;
   font-weight: 700;
 }
 
 .btn-gold:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+  box-shadow: 0 6px 20px rgba(173, 98, 70, 0.28);
 }
 
 .btn-sm {
@@ -176,7 +176,7 @@ h1, h2, h3, h4 {
 input, select, textarea {
   font-family: inherit;
   color: var(--text-main);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 12px 14px;
@@ -208,7 +208,7 @@ input:focus, select:focus {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: rgba(7, 11, 22, 0.94);
+  background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(15px);
   border-bottom: 1px solid var(--border);
 }
@@ -231,7 +231,7 @@ input:focus, select:focus {
   width: 40px;
   height: 40px;
   border-radius: var(--radius-sm);
-  background: linear-gradient(135deg, rgba(0, 240, 255, 0.2), rgba(245, 158, 11, 0.2));
+  background: linear-gradient(135deg, var(--accent-cyan-bg), var(--accent-gold-bg));
   border: 1px solid var(--accent-cyan);
   display: flex;
   align-items: center;
@@ -246,7 +246,7 @@ input:focus, select:focus {
   font-weight: 800;
   font-size: 1.25rem;
   letter-spacing: 0.05em;
-  color: #fff;
+  color: var(--text-main);
 }
 
 .brand-sub {
@@ -362,7 +362,7 @@ input:focus, select:focus {
   left: 0;
   right: 0;
   padding: 24px;
-  background: linear-gradient(to top, rgba(4, 7, 15, 0.95), transparent);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.8) 58%, transparent);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -376,7 +376,7 @@ input:focus, select:focus {
   justify-content: center;
   gap: 10px;
   padding: 16px;
-  background: var(--bg-darker);
+  background: var(--bg-card-hover);
   border-top: 1px solid var(--border);
   flex-wrap: wrap;
 }
@@ -384,7 +384,7 @@ input:focus, select:focus {
 .hero-tab-label {
   padding: 8px 18px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-card);
   color: var(--text-muted);
   font-weight: 600;
   font-size: 0.85rem;
@@ -394,7 +394,7 @@ input:focus, select:focus {
 }
 
 .hero-tab-label:hover {
-  color: #fff;
+  color: var(--text-main);
 }
 
 /* Pure CSS Hero Selector rules */
@@ -434,7 +434,7 @@ input:focus, select:focus {
 .portal-card:hover {
   transform: translateY(-6px);
   border-color: var(--accent-cyan);
-  box-shadow: 0 10px 30px rgba(0, 240, 255, 0.15);
+  box-shadow: 0 10px 30px rgba(69, 107, 82, 0.13);
 }
 
 .portal-icon {
@@ -465,8 +465,8 @@ input:focus, select:focus {
   margin-top: 60px;
   padding: 40px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, #0e172a, #1a1528);
-  border: 1px solid rgba(245, 158, 11, 0.25);
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-elevated));
+  border: 1px solid var(--accent-gold-bg);
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 30px;
@@ -525,7 +525,7 @@ input:focus, select:focus {
 }
 
 .filter-tab-label:hover {
-  color: #fff;
+  color: var(--text-main);
 }
 
 #flt-all:checked ~ .filter-tabs-wrap .label-flt-all,
@@ -669,7 +669,7 @@ input:focus, select:focus {
   display: flex;
   gap: 8px;
   padding: 14px 28px;
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--bg-card-hover);
   border-bottom: 1px solid var(--border);
   overflow-x: auto;
 }
@@ -688,8 +688,8 @@ input:focus, select:focus {
 }
 
 .details-tab-label:hover {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-main);
+  background: var(--bg-elevated);
 }
 
 /* Pure CSS Details Tab Switching */
@@ -701,7 +701,7 @@ input:focus, select:focus {
 #dtl-tab-colors:checked ~ .car-details-box .label-dtl-colors,
 #dtl-tab-price:checked ~ .car-details-box .label-dtl-price {
   color: var(--accent-cyan);
-  background: rgba(0, 240, 255, 0.1);
+  background: var(--accent-cyan-bg);
   border-color: var(--border-cyan);
 }
 
@@ -748,7 +748,7 @@ input:focus, select:focus {
 .angle-label {
   padding: 8px 18px;
   border-radius: var(--radius-sm);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-card);
   border: 1px solid var(--border);
   color: var(--text-muted);
   font-weight: 600;
@@ -800,9 +800,9 @@ input:focus, select:focus {
 #paint-emerald:checked ~ .color-studio .swatch-emerald,
 #paint-silver:checked ~ .color-studio .swatch-silver,
 #paint-orange:checked ~ .color-studio .swatch-orange {
-  border-color: #fff;
+  border-color: var(--accent-cyan);
   transform: scale(1.15);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(69, 107, 82, 0.24);
 }
 
 #paint-black:checked ~ .color-studio .color-img-preview img { filter: none; }
@@ -882,8 +882,8 @@ input:focus, select:focus {
 }
 
 .offer-box.gold {
-  border-color: rgba(245, 158, 11, 0.4);
-  background: linear-gradient(135deg, #181324, #0e172a);
+  border-color: rgba(173, 98, 70, 0.4);
+  background: linear-gradient(135deg, #fffaf7, #ffffff);
 }
 
 /* Pure CSS Modal */
@@ -891,7 +891,7 @@ input:focus, select:focus {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(4, 7, 15, 0.88);
+  background: rgba(31, 39, 33, 0.58);
   backdrop-filter: blur(8px);
   z-index: 2000;
   align-items: center;
@@ -911,7 +911,7 @@ input:focus, select:focus {
   width: 100%;
   max-width: 500px;
   position: relative;
-  box-shadow: 0 0 40px rgba(245, 158, 11, 0.2);
+  box-shadow: 0 0 40px rgba(173, 98, 70, 0.16);
 }
 
 .modal-close {
@@ -1013,12 +1013,12 @@ input:focus, select:focus {
 #ex-s9:checked ~ .exchange-box #pane-ex-9 { display: block; }
 
 .dropzone {
-  border: 2px dashed rgba(0, 240, 255, 0.4);
+  border: 2px dashed var(--border-cyan);
   border-radius: var(--radius-md);
   padding: 36px;
   text-align: center;
   cursor: pointer;
-  background: rgba(0, 240, 255, 0.02);
+  background: rgba(69, 107, 82, 0.035);
 }
 
 .dropzone:hover {
@@ -1028,7 +1028,7 @@ input:focus, select:focus {
 .celebrate-card {
   padding: 30px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(0, 240, 255, 0.1));
+  background: linear-gradient(135deg, var(--accent-gold-bg), var(--accent-cyan-bg));
   border: 2px solid var(--accent-gold);
   text-align: center;
   margin: 20px 0;
@@ -1047,7 +1047,7 @@ input:focus, select:focus {
   max-width: 680px;
   margin: 0 auto;
   background: var(--bg-card);
-  border: 1px solid var(--accent-cyan);
+  border: 1px solid var(--border-cyan);
   border-radius: var(--radius-lg);
   padding: 40px;
   text-align: center;
